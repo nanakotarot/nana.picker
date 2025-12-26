@@ -36,4 +36,4 @@
 - **文字**：純白發光樣式，確保在深色背景下的極致可讀性。
 
 ---
-*Created with Vibe Coding flow.*
+*Created with nanako tarot.*
