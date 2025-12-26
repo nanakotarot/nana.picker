@@ -19,17 +19,15 @@
 5. 點擊開始按鈕，觀看結果！
 
 ## ⚙️ 自定義指南
-本專案採用單一 HTML 結構，方便修改與部署。
+本專案採用標準的前端分離結構，方便維護與擴充。
 
-### 代碼結構
-- **樣式 (CSS)**：位於 `<style>` 標籤內。使用了 CSS Variables 定義配色（如 `--primary-gradient`），方便快速換色。
-- **結構 (HTML)**：
-  - `.container`：主容器，使用 Grid 佈局處理 RWD。
-  - `.input-section`：左側（或行動版上方）的控制面板。
-  - `.results-container`：右側（或行動版下方）的結果展示區。
-- **邏輯 (JS)**：位於 `<script>` 標籤內。
-  - `switchMode(mode)`：切換抽籤/分組模式。
-  - `performDraw(names)`：執行抽籤邏輯。
-  - `performGrouping(names)`：執行分組邏輯。
+### 檔案結構
+- **`index.html`**：網頁骨架，僅包含結構與外部資源連結。
+- **`style.css`**：樣式表，包含所有的視覺設計、RWD 設定與動畫變數。
+  - 使用 CSS Variables (如 `--primary-gradient`) 方便快速換色。
+- **`script.js`**：核心邏輯，包含資料處理、抽籤演算法與 DOM 操作。
 
-若要修改預設名單，可搜尋代碼中的 `<textarea id="nameInput">` 並修改其內容。
+### 常用修改
+- **修改配色**：請至 `style.css` 頂部的 `:root` 區域調整變數。
+- **修改預設名單**：請至 `index.html`搜尋 `<textarea id="nameInput">` 並修改其內容。
+
