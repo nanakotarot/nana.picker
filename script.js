@@ -288,7 +288,7 @@ function resizeCanvas() {
 function fireConfetti() {
     particles = [];
     const count = 500; // More particles
-    const colors = ['#a864fd', '#29cdff', '#78ff44', '#ff718d', '#fdff6a'];
+    const colors = ['#f72585', '#0bf4f3', '#fee440', '#ffffff', '#7209b7'];
 
     for (let i = 0; i < count; i++) {
         // Spawn randomly across the WHOLE screen
