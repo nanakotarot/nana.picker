@@ -1,5 +1,7 @@
 # ✨ Lucky Draw & Grouping Tool - Cyberpunk Edition / 幸運抽籤與分組神器 - 賽博龐克版
 
+![AI Powered](https://img.shields.io/badge/AI-Powered-purple?style=flat-square&logo=google-gemini&logoColor=white)
+
 ## 📖 Introduction / 專案簡介
 
 **English**  
